@@ -18,3 +18,8 @@ class ColorLight {
   static const Color kFacebookColor = Color(0xFF5C94D4);
   static const Color kGoogleColor = Color(0xFFDD4B39);
 }
+
+class PrimaryColorLight{
+  static const Color coba = Color(0xFFFFEBA1);
+  static const Color foody= Color(0xFFFF0303);
+}
