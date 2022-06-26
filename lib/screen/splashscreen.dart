@@ -12,7 +12,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return Container(
       child: Center(
-        child: Text('Splash Screen'),
+        child: Text('Splash Screen With GetX StateManagement'),
       ),
     );
   }
