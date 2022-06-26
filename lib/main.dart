@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:submissionpertama/helper/routes.dart';
 import 'package:submissionpertama/helper/theme.dart';
+import 'package:submissionpertama/screen/splashscreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,10 +14,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title:'Herry UI',
+      title: 'Herry UI',
       debugShowCheckedModeBanner: false,
       theme: themeLight(context),
-      getPages:allRoutesFourney,
+      getPages: allRoutesFourney,
+      home: const SplashScreen(),
     );
   }
 }
