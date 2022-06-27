@@ -7,7 +7,10 @@ class FoodRoutes {
   static const String onboarding = '/food_onboarding';
 }
 
-class Const {}
+class Const {
+  static const String cod = '';
+  static const String empty = '';
+}
 
 Future showToast(
     {required String msg, Color? backgroundColor, Color? textColor}) {
