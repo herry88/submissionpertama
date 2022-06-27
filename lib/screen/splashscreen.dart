@@ -10,8 +10,10 @@ class SplashScreen extends StatefulWidget {
 
 class _SplashScreenState extends State<SplashScreen> {
   void startSplash() {
-    Future.delayed(const Duration(seconds: 3),
-        () => Get.offAllNamed<dynamic>('/food_onboarding'));
+    Future.delayed(
+      const Duration(seconds: 3),
+      () => Get.offAllNamed<dynamic>('/food_onboarding'),
+    );
   }
 
   @override
