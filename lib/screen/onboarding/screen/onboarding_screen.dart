@@ -11,7 +11,9 @@ class _FoodOnBoardingScreenState extends State<FoodOnBoardingScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
+      appBar: AppBar(
+        title: const Text('halaman onboarding'),
+      ),
     );
   }
 }

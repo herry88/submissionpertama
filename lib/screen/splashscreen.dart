@@ -18,10 +18,18 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 
   @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    startSplash();
+  }
+
+  @override
   Widget build(BuildContext context) {
-    return Container(
-      child: const Center(
-        child: Text('Splash Screen With GetX StateManagement'),
+    return  Scaffold(
+      backgroundColor: Colors.red,
+      body: Center(
+        child: Text('Welcome To SplashScreen'),
       ),
     );
   }
